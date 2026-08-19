@@ -120,7 +120,7 @@ npm run test
 
 ## 📄 Related Documentation
 
-- **[Detailed Technical Approach Guide (`approach.md`)](./approach.md)** — Deep dive into system design, NLU engine, i18n strategy, and state management.
+- **[Detailed Technical Approach Guide (`approach.md`)](./approach.md)** —Comprehensive deep dive into Web Speech API integration, rule-based NLU parser logic, bilingual i18n dictionary architecture, state persistence, and recommendation algorithms.
 
 ---
 
