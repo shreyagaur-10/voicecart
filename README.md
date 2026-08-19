@@ -9,7 +9,13 @@
 
 ## 🎯 Technical Approach
 
-For a brief write-up and detailed technical breakdown of our approach, system architecture, NLU design, and internationalization strategy, please refer to **[`approach.md`](./approach.md)**.
+Voice Cart is engineered as a responsive, voice-driven shopping assistant tailored for mobile and web. It pairs the browser's native **Web Speech API** (`SpeechRecognition`) with a **deterministic rule-based NLU engine** (`commandParser.ts`) to achieve low-latency voice command parsing in English (`en-US`) and Hindi (`hi-IN`) without cloud dependency costs.
+
+### Core Engineering Strategy & Pillars:
+1. **Client-Side Speech & Intent Parsing:** Natural voice input parsed into structured intents (`add`, `remove`, `search`, `clear`) with entity extraction for quantities (numerical and spoken words like *"a dozen"*), units (`litres`, `packs`), and price filters (`under ₹5000`).
+2. **Bilingual i18n & Catalog Mapping:** Complete UI localization with automatic keyword mapping between spoken English/Hindi terms and inventory categories across 19 categories.
+3. **Dynamic Recommendation Engines:** Custom React hooks (`useShoppingList`, `useVoiceInput`) managing automated recommendations (*"Running Low"* from purchase history, seasonal produce by calendar month, and product substitutions).
+4. **Resilient User Experience:** Out-of-stock items trigger instant visual feedback toasts, while checkout actions launch an interactive *"Payment Coming Soon"* modal.
 
 ---
 
