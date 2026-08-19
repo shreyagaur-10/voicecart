@@ -537,11 +537,11 @@ export function findProductByName(name: string): Product | undefined {
 }
 
 /**
- * Check if a product is available in stock in mock data.
+ * Check if a product is available in stock.
  */
 export function checkProductAvailability(name: string): { available: boolean; product?: Product } {
   const product = findProductByName(name);
-  if (!product || !product.inStock) {
+  if (product && !product.inStock) {
     return { available: false, product };
   }
   return { available: true, product };

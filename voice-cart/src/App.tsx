@@ -410,7 +410,6 @@ function App() {
         {unavailableItem && (
           <UnavailableToast
             itemName={unavailableItem}
-            lang={lang}
             onDismiss={() => setUnavailableItem(null)}
           />
         )}
