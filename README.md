@@ -2,41 +2,14 @@
 
 > **A voice-first, bilingual shopping assistant web application built with React 19, TypeScript, Tailwind CSS v3, and Web Speech API.**
 
-🔗 **Live Demo**: [https://voice-cart-avrp.vercel.app/](https://voice-cart-avrp.vercel.app/)  
-📦 **GitHub Repository**: [https://github.com/shreyagaur-10/voice-cart](https://github.com/shreyagaur-10/voice-cart)  
-📄 **Technical Approach Document**: [Read Detailed Approach & Architecture Guide (approach.md)](./approach.md)
+🔗 **Live Demo**: [voice-cart-zhf4-1yfrkptov-shreya-s-projects13.vercel.app/](voice-cart-zhf4-1yfrkptov-shreya-s-projects13.vercel.app/)  
+📦 **GitHub Repository**: [https://github.com/shreyagaur-10/voice-cart](https://github.com/shreyagaur-10/voicecart)
 
 ---
 
-## 📱 App Screenshots
+## 🎯 Technical Approach
 
-<div align="center">
-  <img src="public/screenshots/1000197901.jpg" width="210" alt="Recommendations Page" />
-  <img src="public/screenshots/1000197900.jpg" width="210" alt="Shopping List Page" />
-  <img src="public/screenshots/1000197899.jpg" width="210" alt="Product Search Page" />
-  <img src="public/screenshots/1000197898.jpg" width="210" alt="Hindi Settings Page" />
-</div>
-
-<p align="center">
-  <b>✨ For You Recommendations</b> &nbsp;|&nbsp; 
-  <b>🛒 Shopping List & Checkout</b> &nbsp;|&nbsp; 
-  <b>🔍 Voice & Catalog Search</b> &nbsp;|&nbsp; 
-  <b>⚙️ Hindi Settings & Profile</b>
-</p>
-
----
-
-## 🎯 Approach (Brief Overview)
-
-Voice Cart is engineered as a mobile-first, voice-driven shopping assistant tailored for natural, multi-lingual web shopping experiences.
-
-### Core Architecture & Engineering Highlights:
-1. **Speech Processing & Rule-Based NLU:** Utilizes the native browser Web Speech API (`SpeechRecognition`) for ultra-low latency voice input in both **English (`en-US`)** and **Hindi (`hi-IN`)**. Commands are parsed deterministically by a custom rule-based Natural Language Processing engine into structured intent objects (`add`, `remove`, `search`, `clear`).
-2. **Bilingual i18n & Catalog System:** Features complete, real-time dynamic language switching across all interface screens, navigation tabs, drawer overlays, notifications, and mock product catalogs.
-3. **Smart Features & State Management:** Custom React hooks (`useShoppingList`, `useVoiceInput`) manage shopping items, purchase history tracking, and dynamic recommendation engines (*"Running Low"*, seasonal produce by calendar month, and item substitutions).
-4. **Resilient User Experience:** Out-of-stock items trigger instant visual feedback toasts, while checkout actions launch an interactive *"Payment Coming Soon"* modal.
-
-> 📖 **For complete technical design, system flowcharts, and implementation details, please review [`approach.md`](./approach.md).**
+For a brief write-up and detailed technical breakdown of our approach, system architecture, NLU design, and internationalization strategy, please refer to **[`approach.md`](./approach.md)**.
 
 ---
 
@@ -135,7 +108,7 @@ npm run test
 | **Add Item** | `"Add 2 eggs"`, `"Add wireless headphones"` | `"दो लीटर दूध जोड़ें"`, `"सेब जोड़ें"` |
 | **Remove Item** | `"Remove eggs"` | `"अंडे हटाएं"` |
 | **Search Catalog** | `"Find headphones under ₹5000"` | `"जैविक सेब खोजें"` |
-| **Clear List** | `"Clear shopping list"` | `"सब हटाएं"` |
+| **Clear List** | `"Clear shopping list"` | `"सब बताएं"` |
 
 ---
 
