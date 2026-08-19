@@ -109,12 +109,12 @@ npm run test
 
 ## 🗣️ Supported Voice Commands
 
-| Action | English Example | Hindi Example |
-| :--- | :--- | :--- |
-| **Add Item** | `"Add 2 eggs"`, `"Add wireless headphones"` | `"दो लीटर दूध जोड़ें"`, `"सेब जोड़ें"` |
-| **Remove Item** | `"Remove eggs"` | `"अंडे हटाएं"` |
-| **Search Catalog** | `"Find headphones under ₹5000"` | `"जैविक सेब खोजें"` |
-| **Clear List** | `"Clear shopping list"` | `"सब बताएं"` |
+| Action | Example Command |
+| :--- | :--- |
+| **Add Item** | `"Add milk"`, `"Add earphones"`, `"Add 2 shirts"` |
+| **Remove Item** | `"Remove milk"`, `"Remove earphones"` |
+| **Search Catalog** | `"Find earphones under ₹5000"`, `"Search shirts"` |
+| **Clear List** | `"Clear shopping list"` |
 
 ---
 
