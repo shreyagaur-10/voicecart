@@ -18,7 +18,7 @@
 
 ## Overview
 
-Voice Cart is a responsive, voice-driven shopping assistant designed for mobile and web. It combines the browser's native `SpeechRecognition` API with a deterministic, rule-based NLU engine (`commandParser.ts`) to deliver low-latency voice command parsing in English (`en-US`) and Hindi (`hi-IN`) with no cloud dependency or associated API costs.
+Voice Cart is a responsive, voice-driven shopping assistant designed for mobile . It combines the browser's native `SpeechRecognition` API with a deterministic, rule-based NLU engine (`commandParser.ts`) to deliver low-latency voice command parsing in English (`en-US`) and Hindi (`hi-IN`) with no cloud dependency or associated API costs.
 
 ### Core Design Principles
 
