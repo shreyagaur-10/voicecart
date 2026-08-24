@@ -3,7 +3,7 @@
 **A voice-first, bilingual shopping assistant built with React 19, TypeScript, Tailwind CSS v3, and the Web Speech API.**
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://voice-cart-zhf4.vercel.app/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 
 **Live Demo:** https://voice-cart-zhf4.vercel.app/
 **Repository:** https://github.com/shreyagaur-10/voicecart
@@ -12,9 +12,11 @@
 
 ## 📸 Application Interface & Visual Previews
 
-![Voice Cart Preview 1](./1.jpeg)
-![Voice Cart Preview 2](./2.jpeg)
-![Voice Cart Preview 3](./3.jpeg)
+<img src="./1.jpeg" alt="Voice Cart Preview 1" width="400" />
+<img src="./2.jpeg" alt="Voice Cart Preview 2" width="400" />
+<img src="./3.jpeg" alt="Voice Cart Preview 3" width="400" />
+<img src="./4.jpeg" alt="Voice Cart Preview 4" width="400" />
+
 
 ## Overview
 
