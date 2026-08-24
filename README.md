@@ -12,11 +12,9 @@
 
 ## 📸 Application Interface & Visual Previews
 
-<img src="./1.jpeg" alt="Voice Cart Preview 1" width="400" />
-<img src="./2.jpeg" alt="Voice Cart Preview 2" width="400" />
-<img src="./3.jpeg" alt="Voice Cart Preview 3" width="400" />
-<img src="./4.jpeg" alt="Voice Cart Preview 4" width="400" />
-
+<img src="./1.jpeg" alt="Voice Cart Preview 1" width="250" /> <img src="./2.jpeg" alt="Voice Cart Preview 2" width="250" />
+<br />
+<img src="./3.jpeg" alt="Voice Cart Preview 3" width="250" /> <img src="./4.jpeg" alt="Voice Cart Preview 4" width="250" />
 
 ## Overview
 
