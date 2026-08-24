@@ -1,6 +1,6 @@
 # Brief Write-up of Approach (Voice Cart)
 
-### Approach & System Architecture (194 words)
+### Approach & System Architecture 
 
 **Voice Cart** is engineered as a responsive, voice-first shopping assistant tailored for mobile and web experiences, built using React (TypeScript), Tailwind CSS, and Vite.
 
